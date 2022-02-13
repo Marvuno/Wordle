@@ -6,4 +6,4 @@ There are two algorithmic solver, while information_solver is the more superior 
 The solver is inspired by 3blue1brown, with the exclusion of incorporating word frequencies due to its gimmicky.
 You may run play() to test run the word list for statistics. You may also run manual_play() to use the solver in beating Wordle itself.
 
-![Statistics](https://github.com/Marvuno/Wordle/blob/main/Wordle Stats.png)
+![Statistics](https://github.com/Marvuno/Wordle/blob/main/WordleStats.png)
