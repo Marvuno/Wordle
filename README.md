@@ -8,5 +8,4 @@ You may run play() to test run the word list for statistics. You may also run ma
 
 This is the statistics for the solver to solve the Wordle word list. Only one word (Jolly) takes 7 tries.<br />
 Average Number of Attempts: 4.019006479481641<br />
-{'1': 0, '2': 6, '3': 422, '4': 1434, '5': 429, '6': 23, '7': 1, '8': 0}
 ![Statistics](https://github.com/Marvuno/Wordle/blob/main/WordleStats.png)
