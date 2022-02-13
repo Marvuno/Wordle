@@ -1,4 +1,9 @@
 # Wordle
 
-Playable Wordle with unique word list containing near 5,000 words. It is functionable with Tkinter UI. To play the game, just run main.py.
-An additional solver.py is added using Greedy algorithm to solve Wordle. With my unique word list implemented, it could yield an average attempt of 4.2 tries. For the wordle word list, it could yield an average attempt of 3.7 tries.
+This Wordle consists of the original wordle word list (2315 words) and a custom word list (4980 words).
+Users can access the interactive offline Wordle supported by Tkinter by running main.py.
+There are two algorithmic solver, while information_solver is the more superior one.
+The solver is inspired by 3blue1brown, with the exclusion of incorporating word frequencies due to its gimmicky.
+You may run play() to test run the word list for statistics. You may also run manual_play() to use the solver in beating Wordle itself.
+
+![Statistics](https://github.com/Marvuno/Wordle/blob/main/Wordle Stats.png)
