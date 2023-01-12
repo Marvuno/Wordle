@@ -10,8 +10,8 @@ with open('custom_word_list.txt') as f:
     word = random.choice(word_list).split(',')[0]
 with open('full_word_list.txt') as f2:
     guess_list = f2.readlines()
-    for word in guess_list:
-        word = word.strip()
+    guess_list = [x.split(',')[0] for x in guess_list]
+
 # UI/UX with Tkinter
 
 KEYBOARD_LAYOUT = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
