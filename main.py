@@ -5,11 +5,13 @@ from tkinter import *
 from tkinter import messagebox
 
 pygame.mixer.init()
-with open('word_list.txt') as f:
+with open('custom_word_list.txt') as f:
     word_list = f.readlines()
     word = random.choice(word_list).split(',')[0]
-with open('guess.txt') as f2:
-    guess_list = f2.readlines().strip()
+with open('full_word_list.txt') as f2:
+    guess_list = f2.readlines()
+    for word in guess_list:
+        word = word.strip()
 # UI/UX with Tkinter
 
 KEYBOARD_LAYOUT = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J',
